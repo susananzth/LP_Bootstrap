@@ -1,13 +1,17 @@
 *{
-    color: #ededed !important;
+
 }
-a, a:focus, a:before, a:active{
+a.link{
     text-decoration: none !important;
     background-color: transparent !important;
+    color: #ededed !important;
 }
 
-li a:hover{
-    text-decoration: underline !important;
+a.link:focus, a.link:before, a.link:active, a.link:hover{
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: #cbb0c5 !important;
+
 }
 .bg-cover{
     background: url('../img/bg_2.jpg') no-repeat center center fixed;
@@ -16,6 +20,19 @@ li a:hover{
     background-size: cover;
     -o-background-size: cover;
 }
+
+.ft{
+    color: #ededed !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.title{
+    margin-top: 10%;
+}
+
 
 .footer {
     position: absolute;
