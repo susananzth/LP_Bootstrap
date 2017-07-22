@@ -21,12 +21,26 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     -o-background-size: cover;
 }
 
+.section{
+    padding: 20% 10%;
+    color: #ededed !important;
+    text-align: center;
+}
+.section h1{
+    font-size: 280%  !important;
+    font-weight: 600  !important;
+}
+.section {
+    font-size: 180%  !important;
+}
+
 .ft{
     color: #ededed !important;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 60px;
+    text-align: right;
 }
 
 .title{
