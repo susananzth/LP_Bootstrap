@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name='language' content='ES'>
     <meta name='keywords' lang="ES" content='bootstrap, plantilla, diseño web, diseño, html, css,
                                              Susana Piñero, susananzth'>
@@ -29,6 +30,30 @@
     <title>Template with Bootstrap</title>
 </head>
 <body>
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#nav"
+                    aria-expanded="false" aria-controls="nav">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                Susana Piñero <small> SusanaNzth</small>
+            </a>
+        </div>
+        <div id="nav" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a>Inicio</a></li>
+                <li><a>Artículos</a></li>
+                <li><a>Galería</a></li>
+                <li><a>Regístrate</a></li>
+                <li><a>Contáctame</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
