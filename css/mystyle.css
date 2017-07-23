@@ -70,3 +70,10 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     padding: 3% 5%;
 }
 
+.modal-content{
+    text-align: center !important;
+    text-align: -webkit-center !important;
+}
+.modal-footer{
+    text-align: center !important;
+}
