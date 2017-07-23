@@ -1,4 +1,5 @@
-
+<?php include("partials/top_page.php"); ?>
+<?php include("partials/nav.php"); ?>
 <section>
     <div class="container ecc">
         <div class="row">
@@ -61,5 +62,5 @@
         </div>
 
     </div>
-
 </section>
+<?php include("partials/footer.php"); ?>

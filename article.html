@@ -52,7 +52,7 @@
             <ul class="nav navbar-nav navbar-right text-right">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="article.html">Artículos</a></li>
-                <li><a href="galery.html">Galería</a></li>
+                <li><a href="galery.php">Galería</a></li>
                 <li><a href="login.php">Regístrate</a></li>
                 <li><a href="contact.html">Contáctame</a></li>
             </ul>
