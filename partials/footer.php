@@ -1,3 +1,14 @@
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">2017 Susana Piñero. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
 <?php
 /**
  * Created by PhpStorm.

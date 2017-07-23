@@ -25,8 +25,8 @@
     <meta http-equiv="Set-Cookie" content="name=data; path=path; expires=0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
 
     <title>Template with Bootstrap</title>
 </head>
