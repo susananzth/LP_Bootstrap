@@ -32,7 +32,7 @@
 </head>
 <body>
 
-<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav id="navbar" class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <!--Mobile menu button | Botón de menú móvil-->
@@ -53,17 +53,17 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="article.html">Artículos</a></li>
                 <li><a href="galery.html">Galería</a></li>
-                <li><a href="register.html">Regístrate</a></li>
+                <li><a href="login.php">Regístrate</a></li>
                 <li><a href="contact.html">Contáctame</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <section>
-    <div class="container">
+    <div class="container ecc">
         <div class="row">
-            <div class="col-md-7 col-sm-7 col-xs-12">
-                <h3 class="title">Registro</h3>
+            <div class="col-md-7 col-sm-7 col-xs-12 border pd">
+                <h3>Registro</h3>
                 <form role="form" id="signin">
                     <div class="form-group">
                         <label for="email_r">Email:</label>
@@ -83,18 +83,19 @@
                         <label for="archivo">Selecciona una imágen para tu avatar</label>
                         <input type="file" id="archivo" accept="img/jpeg, jpg, png, gif"
                                title="Selecciona una imágen para tu avatar">
-                        <spam class="help-block">Sólo pueden ser imágenes de:
+                        <span class="help-block">Sólo pueden ser imágenes de:
                             <br>Tipo: .jpg .png y .gif.
                             <br>Tamaño: mínimo 50x50 pixeles y máximo 350x350 píxeles.
-                            <br>Volumen: máximo 2Mb.</spam>
+                            <br>Volumen: máximo 2Mb.</span>
                     </div>
                     <button type="submit" class="btn btn-default"
                             title="Enviar datos y registrarse">Registrarse
                     </button>
                 </form>
+                <br>
             </div>
-            <div class="col-md-5 col-sm-5 col-xs-12">
-                <h3 class="title">Iniciar sesión</h3>
+            <div class="col-md-5 col-sm-5 col-xs-12 pd">
+                <h3>Iniciar sesión</h3>
                 <form role="form" id="login">
                     <div class="form-group">
                         <label for="email">Email:</label>
@@ -115,6 +116,7 @@
                             title="Iniciar sesión">Iniciar sesión
                     </button>
                 </form>
+                <br>
             </div>
         </div>
 
