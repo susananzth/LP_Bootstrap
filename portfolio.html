@@ -31,15 +31,26 @@
     <title>Template with Bootstrap</title>
 </head>
 <body>
-<section>
-    <div id="wrapper">
 
+
+<nav id="navbar" class="navbar navbar-default" role="navigation">
+    <div id="wrapper">
+        <!--Logo-->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                Susana Piñero <small> SusanaNzth</small>
+            </a>
+            <!--Mobile menu button | Botón de menú móvil-->
+            <a href="#menu-toggle" class="btn navbar-btn" id="menu-toggle">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </a>
+        </div>
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">Menú</a>
-                </li>
+                <li class="sidebar-brand"><a href="#">Menú</a> <a href="#menu-toggle" class="btn navbar-btn" id="menu-toggle">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </a></li>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="article.html">Artículos</a></li>
                 <li><a href="galery.php">Galería</a></li>
@@ -47,52 +58,28 @@
                 <li><a href="contact.html">Contáctame</a></li>
             </ul>
         </div>
-        <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <!--Mobile menu button | Botón de menú móvil-->
-                    <a href="#menu-toggle" class="btn navbar-btn btn-default navbar-left" id="menu-toggle">Toggle Menu</a>
-                    <!--Logo-->
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="index.html">
-                            Susana Piñero <small> SusanaNzth</small>
-                        </a>
-                    </div>
-
-
-
-                </div>
-            </div>
-        </nav>
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Simple Sidebar</h1>
-                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
-    <footer class="footer">
+</nav>
+
+<section>
+    <div id="page-content-wrapper">
         <div class="container">
-            <p class="text-muted">2017 Susana Piñero. Todos los derechos reservados.</p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Simple Sidebar</h1>
+                    <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                    <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                </div>
+            </div>
         </div>
-    </footer>
-
-
-
-
+    </div>
 </section>
 
-
-
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">2017 Susana Piñero. Todos los derechos reservados.</p>
+    </div>
+</footer>
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>

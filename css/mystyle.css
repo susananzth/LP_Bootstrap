@@ -1,6 +1,7 @@
 *{
 
 }
+
 a.link{
     text-decoration: none !important;
     background-color: transparent !important;
@@ -63,7 +64,7 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     width: 100%;
     padding: 1% 0;
     background: #e0e0e0;
-    position: absolute;
+    position: relative;
 }
 
 .ecc{
@@ -78,9 +79,11 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     text-align: center !important;
 }
 
-body {
-    overflow-x: hidden;
+.navbar-btn{
+    float: right!important;
 }
+
+/* Toggle Styles */
 
 #wrapper {
     padding-left: 0;
@@ -91,39 +94,31 @@ body {
 }
 
 #wrapper.toggled {
-
+    padding-right: 250px;
 }
 
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 250px;
+    right: 250px;
+    top: 0;
     width: 0;
     height: 100%;
-    margin-left: -250px;
+    margin-right: -250px;
     overflow-y: auto;
-    background: #000;
+    background: #62328a !important;
+    color: #ffffff !important;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
+
+
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
 }
-
-#page-content-wrapper {
-    width: 100%;
-    position: absolute;
-    padding: 15px;
-}
-
-#wrapper.toggled #page-content-wrapper {
-    position: absolute;
-
-}
-
 /* Sidebar Styles */
 
 .sidebar-nav {
@@ -141,20 +136,20 @@ body {
 }
 
 .sidebar-nav li a {
-    display: block;
     text-decoration: none;
     color: #999999;
 }
 
-.sidebar-nav li a:hover {
+.sidebar-nav li a {
     text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
+    color: #ffffff !important;
 }
 
+.sidebar-nav li a:hover,
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
+    color: #d3cad4 !important;
 }
 
 .sidebar-nav > .sidebar-brand {
@@ -174,11 +169,11 @@ body {
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 0;
+        padding-right: 0;
     }
 
     #wrapper.toggled {
-
+        padding-right: 250px;
     }
 
     #sidebar-wrapper {
