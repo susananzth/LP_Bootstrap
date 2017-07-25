@@ -45,6 +45,7 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
 
 .navbar{
     margin-bottom: 0 !important;
+    z-index: 1000;
 }
 
 .row{
@@ -80,7 +81,7 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
 }
 
 .navbar-btn{
-    float: right!important;
+    float: right !important;
 }
 
 /* Toggle Styles */
@@ -93,12 +94,8 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     transition: all 0.5s ease;
 }
 
-#wrapper.toggled {
-    padding-right: 250px;
-}
-
 #sidebar-wrapper {
-    z-index: 1000;
+    z-index: -1;
     position: fixed;
     right: 250px;
     top: 0;
@@ -115,10 +112,10 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
 }
 
 
-
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
 }
+
 /* Sidebar Styles */
 
 .sidebar-nav {
@@ -173,7 +170,7 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     }
 
     #wrapper.toggled {
-        padding-right: 250px;
+
     }
 
     #sidebar-wrapper {

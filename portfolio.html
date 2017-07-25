@@ -36,21 +36,19 @@
 <nav id="navbar" class="navbar navbar-default" role="navigation">
     <div id="wrapper">
         <!--Logo-->
-        <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-                Susana Piñero <small> SusanaNzth</small>
-            </a>
-            <!--Mobile menu button | Botón de menú móvil-->
-            <a href="#menu-toggle" class="btn navbar-btn" id="menu-toggle">
-                <span class="glyphicon glyphicon-menu-hamburger"></span>
-            </a>
-        </div>
-        <!-- Sidebar -->
+        <a class="navbar-brand" href="index.html">
+            Susana Piñero <small> SusanaNzth</small>
+        </a>
+        <!--Mobile menu button | Botón de menú móvil-->
+        <a class="btn navbar-btn" id="menu-toggle">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </a>
+        <!--Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#">Menú</a> <a href="#menu-toggle" class="btn navbar-btn" id="menu-toggle">
-                    <span class="glyphicon glyphicon-menu-hamburger"></span>
-                </a></li>
+                <li class="sidebar-brand">
+                    <a href="#">Menú</a>
+                </li>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="article.html">Artículos</a></li>
                 <li><a href="galery.php">Galería</a></li>
@@ -59,6 +57,7 @@
             </ul>
         </div>
     </div>
+
 </nav>
 
 <section>
@@ -88,6 +87,9 @@
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
+        $('#menu-toggle').hide(100);
+        $('#menu-toggle').show(100);
+        $('#menu-toggle').stop();
     });
 </script>
 </body>
