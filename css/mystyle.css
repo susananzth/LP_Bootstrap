@@ -1,3 +1,4 @@
+
 section{
     margin-top: 50px;
 }
@@ -20,19 +21,26 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100vh;
 }
 
-.section{
-    padding: 20% 10%;
+.nv{
+    position: relative;
+    min-height: 50px;
+}
+
+.sec{
+    padding: 10% 10%;
     color: #ededed !important;
     text-align: center;
+    font-size: 180%  !important;
 }
-.section h1{
+.sec h1{
     font-size: 280%  !important;
     font-weight: 600  !important;
 }
-.section {
-    font-size: 180%  !important;
+.sec {
+
 }
 
 .ft{
@@ -46,7 +54,10 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
 .navbar{
     margin-bottom: 0 !important;
     z-index: 1000;
-    background-color: #472d8a;
+    background: #d0b3e8;
+    -webkit-box-shadow: 0 14px 54px -22px rgb(48, 48, 48);
+    -moz-box-shadow: 0 14px 54px -22px rgb(48, 48, 48);
+    box-shadow: 0 14px 14px -37px rgb(48, 48, 48) !important;
 }
 
 .row{
@@ -91,13 +102,13 @@ a.navbar-btn{
 
 .navbar > div > a{
     text-decoration: none;
-    color: #ffffff !important;
+    color: #555555 !important;
 }
 .navbar > div > a:hover,
 .navbar > div > a:active,
 .navbar > div > a:focus {
     text-decoration: none;
-    color: #cdcde1 !important;
+    color: #777777 !important;
 }
 
 /* Toggle Styles */
@@ -117,8 +128,11 @@ a.navbar-btn{
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #472d8a !important;
-    color: #ffffff !important;
+    color: #555555 !important;
+    background: #d0b3e8;
+    -moz-box-shadow: 7px 0 10px -8px #343434;
+    -webkit-box-shadow: 7px 0 10px -8px #343434;
+    box-shadow: 7px 0 10px -8px #343434;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -142,14 +156,14 @@ a.navbar-btn{
 
 .sidebar-nav li a {
     text-decoration: none;
-    color: #ffffff !important;
+    color: #555555 !important;
 }
 
 .sidebar-nav li a:hover,
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
-    color: #cdcde1 !important;
+    color: #777777 !important;
 }
 
 .sidebar-nav > .sidebar-brand {

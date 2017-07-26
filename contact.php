@@ -6,10 +6,8 @@ include("partials/top_page.php"); ?>
 include("partials/nav.php"); ?>
 
 <section>
-    <div id="page-content-wrapper">
-        <div class="container">
-            <h1>Portafolio</h1>
-        </div>
+    <div class="container">
+        <h1 class="title">Contacto</h1>
     </div>
 </section>
 

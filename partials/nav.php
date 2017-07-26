@@ -6,7 +6,7 @@
             <span class="glyphicon glyphicon-menu-hamburger"></span>
         </a>
         <!--Logo-->
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
             Susana Piñero <small> SusanaNzth</small>
         </a>
         <!--Sidebar -->
@@ -18,12 +18,12 @@
                         <span class="glyphicon glyphicon-remove"></span>
                     </a>
                 </li>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                 <li><a href="portfolio.php">Portafolio</a></li>
-                <li><a href="article.html">Artículos</a></li>
+                <li><a href="article.php">Artículos</a></li>
                 <li><a href="galery.php">Galería</a></li>
                 <li><a href="login.php">Regístrate</a></li>
-                <li><a href="contact.html">Contáctame</a></li>
+                <li><a href="contact.php">Contáctame</a></li>
             </ul>
         </div>
     </div>
