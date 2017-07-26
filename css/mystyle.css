@@ -41,14 +41,21 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
 }
 /* End of index.php styles */
 
-/** global */
+/** GLOBAL */
 section{
     margin-top: 50px;
     background-color: rgba(208, 179, 232, 0.18) !important;
-
 }
-/* partials navbar styles */
+a{
+    text-decoration: none;
+    color: #555555 !important;
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: #777777 !important;
+}
 
+/* partials navbar styles */
 .navbar{/* navbar styles */
     margin-bottom: 0 !important;
     z-index: 1000;
@@ -61,17 +68,6 @@ a.navbar-btn{
     float: left !important;
     margin: 12px 0 0 15px;
     font-size: 150%;
-
-}
-.navbar > div > a{
-    text-decoration: none;
-    color: #555555 !important;
-}
-.navbar > div > a:hover,
-.navbar > div > a:active,
-.navbar > div > a:focus {
-    text-decoration: none;
-    color: #777777 !important;
 }/* end navbar styles */
 
 #wrapper {/* toggle styles */
@@ -128,14 +124,53 @@ a.navbar-btn{
 
 /* end partials navbar styles */
 
-/* partials footer styles */
-.footer {
+.footer {/* partials footer styles */
     width: 100%;
     padding: 1% 0;
     background: #e0e0e0;
     position: relative;
+}/* end partials footer styles */
+
+/* END GLOBAL */
+
+/* article styles */
+.entry{
+    padding: 3% 3%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 3%;
 }
-/* end partials footer styles */
+.blog-title{
+    font-size: 180%;
+}
+.widget{
+    padding: 3% 3%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 3% 0;
+}
+
+.sidebar-nav li a {
+    text-decoration: none;
+    color: #555555 !important;
+}
+.sidebar-nav li a:hover,
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+    color: #777777 !important;
+}
+
+
+/* galery styles */
+.modal-content{
+    text-align: center !important;
+    text-align: -webkit-center !important;
+}
+.modal-footer{
+    text-align: center !important;
+}/* end galery styles */
+
 
 /* login styles */
 .border{
@@ -149,15 +184,6 @@ a.navbar-btn{
 .pd{
     padding: 0 3%;
 }/* end login styles */
-
-/* galery styles */
-.modal-content{
-    text-align: center !important;
-    text-align: -webkit-center !important;
-}
-.modal-footer{
-    text-align: center !important;
-}/* end galery styles */
 
 
 @media(min-width:768px) {

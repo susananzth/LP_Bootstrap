@@ -72,6 +72,7 @@ include("partials/nav.php"); ?>
                     viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
         </div>
+        <!-- Pagination | Paginadores -->
         <div class="row text-center">
             <div class="col-lg-12">
                 <ul class="pagination">
