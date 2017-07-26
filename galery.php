@@ -9,7 +9,7 @@
                 <h1 class="page-header">Thumbnail Gallery</h1>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/01.jpg" alt="">
                 </a>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/02.jpg" alt="">
                 </a>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/03.jpg" alt="">
                 </a>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/04.jpg" alt="">
                 </a>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/05.jpg" alt="">
                 </a>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/06.jpg" alt="">
                 </a>
@@ -147,7 +147,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/07.jpg" alt="">
                 </a>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/08.jpg" alt="">
                 </a>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/09.jpg" alt="">
                 </a>
