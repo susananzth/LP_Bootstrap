@@ -1,5 +1,10 @@
-<?php include("partials/top_page.php"); ?>
-<?php include("partials/nav.php"); ?>
+<?php /*Includes meta tags, links and page title |
+        Incluye etiquetas meta, links y título de la página */
+include("partials/top_page.php"); ?>
+<?php /*Includes navigation bar |
+        Incluye barra de navegación*/
+include("partials/nav.php"); ?>
+
 <section>
     <div class="container">
 
@@ -245,6 +250,8 @@
             </div>
         </div>
     </div>
-
 </section>
-<?php include("partials/footer.php"); ?>
+
+<?php /*Includes footer and javascript |
+        Incluye footer y el javascript*/
+include("partials/footer.php"); ?>

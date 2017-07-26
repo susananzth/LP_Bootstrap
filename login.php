@@ -67,4 +67,7 @@
 
     </div>
 </section>
-<?php include("partials/footer.php"); ?>
+
+<?php /*Includes footer and javascript |
+        Incluye footer y el javascript*/
+    include("partials/footer.php"); ?>
