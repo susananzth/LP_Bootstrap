@@ -6,7 +6,17 @@
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
+<!-- Menu Toggle Script -->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    $("#wrap").click(function(e) {
+        e.preventDefault();
+        $(".wrapp").toggleClass("toggled");
+    });
+</script>
 </body>
 </html>
 <?php
