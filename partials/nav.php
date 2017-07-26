@@ -1,23 +1,25 @@
 
-<nav id="navbar" class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <!--Mobile menu button | Botón de menú móvil-->
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#nav">
-                <span class="glyphicon glyphicon-menu-hamburger"></span>
-            </button>
-            <!--Logo-->
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/index.html">
-                    Susana Piñero <small> SusanaNzth</small>
-                </a>
-            </div>
-        </div>
-        <!--Drop-down navigation bar | Barra de navegación desplegable-->
-        <div class="collapse navbar-collapse" id="nav">
-            <ul class="nav navbar-nav navbar-right text-right">
+<nav id="navbar" class="navbar navbar-fixed-top" role="navigation">
+    <div id="wrapper">
+        <!--Mobile menu button | Botón de menú móvil-->
+        <a class="navbar-btn" id="menu-toggle">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </a>
+        <!--Logo-->
+        <a class="navbar-brand" href="index.html">
+            Susana Piñero <small> SusanaNzth</small>
+        </a>
+        <!--Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">Menú</a>
+                    <a class="text-right" id="wrap">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </li>
                 <li><a href="index.html">Inicio</a></li>
+                <li><a href="portfolio.html">Portafolio</a></li>
                 <li><a href="article.html">Artículos</a></li>
                 <li><a href="galery.php">Galería</a></li>
                 <li><a href="login.php">Regístrate</a></li>
