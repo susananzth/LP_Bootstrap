@@ -19,7 +19,7 @@
                     </a>
                 </li>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="portfolio.html">Portafolio</a></li>
+                <li><a href="portfolio.php">Portafolio</a></li>
                 <li><a href="article.html">Artículos</a></li>
                 <li><a href="galery.php">Galería</a></li>
                 <li><a href="login.php">Regístrate</a></li>

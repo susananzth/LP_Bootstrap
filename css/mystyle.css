@@ -46,6 +46,7 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
 .navbar{
     margin-bottom: 0 !important;
     z-index: 1000;
+    background-color: #472d8a;
 }
 
 .row{
@@ -80,9 +81,6 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     text-align: center !important;
 }
 
-.navbar{
-    background-color: #472d8a;
-}
 
 a.navbar-btn{
     float: left !important;
