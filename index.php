@@ -29,18 +29,12 @@ include("partials/top_page.php"); ?>
             </div>
         </div>
     </nav>
-
-    <section>
-        <div class="container sec">
-            <h1>Susana Piñero</h1>
-            <p>Una Página web usando bootstrap, con landing page,
-                sección de artículos, galería de imágenes y vídeo,
-                contacto</p>
-        </div>
-
-    </section>
-
-    <footer class="ft">
+    <div class="container sec">
+        <h1>Susana Piñero</h1>
+        <p>Una Página web usando bootstrap, con sección de portafolio, artículos,
+            galería de imágenes, registro e inicio de sesión y forma de contacto.</p>
+    </div>
+        <footer class="ft">
         <div class="container">
             <p>2017 Susana Piñero. Todos los derechos reservados.</p>
         </div>

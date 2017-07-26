@@ -1,20 +1,5 @@
 
-section{
-    margin-top: 50px;
-}
-
-a.link{
-    text-decoration: none !important;
-    background-color: transparent !important;
-    color: #ededed !important;
-}
-
-a.link:focus, a.link:before, a.link:active, a.link:hover{
-    text-decoration: none !important;
-    background-color: transparent !important;
-    color: #cbb0c5 !important;
-
-}
+/* index.php styles */
 .bg-cover{
     background: url('../img/bg_2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -23,12 +8,20 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     -o-background-size: cover;
     height: 100vh;
 }
-
+a.link{
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: #ededed !important;
+}
+a.link:focus, a.link:before, a.link:active, a.link:hover{
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: #a4a7cb !important;
+}
 .nv{
     position: relative;
     min-height: 50px;
 }
-
 .sec{
     padding: 10% 10%;
     color: #ededed !important;
@@ -39,10 +32,6 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     font-size: 280%  !important;
     font-weight: 600  !important;
 }
-.sec {
-
-}
-
 .ft{
     color: #ededed !important;
     position: absolute;
@@ -50,8 +39,17 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     width: 100%;
     height: 60px;
 }
+/* End of index.php styles */
 
-.navbar{
+/** global */
+section{
+    margin-top: 50px;
+    background-color: rgba(208, 179, 232, 0.18) !important;
+
+}
+/* partials navbar styles */
+
+.navbar{/* navbar styles */
     margin-bottom: 0 !important;
     z-index: 1000;
     background: #d0b3e8;
@@ -59,47 +57,12 @@ a.link:focus, a.link:before, a.link:active, a.link:hover{
     -moz-box-shadow: 0 14px 54px -22px rgb(48, 48, 48);
     box-shadow: 0 14px 14px -37px rgb(48, 48, 48) !important;
 }
-
-.row{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-
-}
-.border{
-    border-right: 1px solid #ddd;
-}
-
-.pd{
-    padding: 0 3%;
-}
-
-.footer {
-    width: 100%;
-    padding: 1% 0;
-    background: #e0e0e0;
-    position: relative;
-}
-
-.ecc{
-    padding: 3% 5%;
-}
-
-.modal-content{
-    text-align: center !important;
-    text-align: -webkit-center !important;
-}
-.modal-footer{
-    text-align: center !important;
-}
-
-
 a.navbar-btn{
     float: left !important;
     margin: 12px 0 0 15px;
     font-size: 150%;
 
 }
-
 .navbar > div > a{
     text-decoration: none;
     color: #555555 !important;
@@ -109,17 +72,15 @@ a.navbar-btn{
 .navbar > div > a:focus {
     text-decoration: none;
     color: #777777 !important;
-}
+}/* end navbar styles */
 
-/* Toggle Styles */
-#wrapper {
+#wrapper {/* toggle styles */
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-
 #sidebar-wrapper {
     position: fixed;
     left: 250px;
@@ -138,50 +99,77 @@ a.navbar-btn{
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
-}
+}/* end toggle styles */
 
-/* Sidebar Styles */
-.sidebar-nav{
+.sidebar-nav{ /* sidebar styles */
     padding: 0;
 }
-
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 250%;
     list-style: none;
 }
-
 .sidebar-nav li a {
     text-decoration: none;
     color: #555555 !important;
 }
-
 .sidebar-nav li a:hover,
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
     color: #777777 !important;
 }
-
 .sidebar-nav > .sidebar-brand {
     font-size: 130%;
     line-height: 400%;
+} /* end sidebar styles */
+
+/* end partials navbar styles */
+
+/* partials footer styles */
+.footer {
+    width: 100%;
+    padding: 1% 0;
+    background: #e0e0e0;
+    position: relative;
 }
+/* end partials footer styles */
+
+/* login styles */
+.border{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 3% 0;
+}
+.border-left{
+    border-right: 1px solid #ddd;
+}
+.pd{
+    padding: 0 3%;
+}/* end login styles */
+
+/* galery styles */
+.modal-content{
+    text-align: center !important;
+    text-align: -webkit-center !important;
+}
+.modal-footer{
+    text-align: center !important;
+}/* end galery styles */
+
 
 @media(min-width:768px) {
+    /* toggle styles */
     #wrapper {
         padding-left: 0;
     }
-
     #sidebar-wrapper {
         width: 0;
     }
-
     #wrapper.toggled #sidebar-wrapper {
         width: 250px;
-    }
+    }/* end toggle styles */
 
 }

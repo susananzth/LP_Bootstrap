@@ -6,8 +6,8 @@
     include("partials/nav.php"); ?>
 <section>
     <div class="container ecc">
-        <div class="row">
-            <div class="col-md-7 col-sm-7 col-xs-12 border pd">
+        <div class="row border">
+            <div class="col-md-7 col-sm-7 col-xs-12 border-left pd">
                 <h3>Registro</h3>
                 <form role="form" id="signin">
                     <div class="form-group">
