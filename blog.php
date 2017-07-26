@@ -27,7 +27,7 @@ include("partials/nav.php"); ?>
                                     veritatis, tempora, necessitatibus inventore nisi quam quia
                                     repellat ut tempore laborum possimus eum dicta id animi corrupti
                                     debitis ipsum officiis rerum.</p>
-                                <a class="btn btn-default" href="#">Seguir leyendo
+                                <a class="btn btn-default" href="articles/article_01.php">Seguir leyendo
                                     <span class="glyphicon glyphicon-chevron-right"></span>
                                 </a>
                             </div>
@@ -50,7 +50,7 @@ include("partials/nav.php"); ?>
                                     veritatis, tempora, necessitatibus inventore nisi quam quia
                                     repellat ut tempore laborum possimus eum dicta id animi corrupti
                                     debitis ipsum officiis rerum.</p>
-                                <a class="btn btn-default" href="#">Seguir leyendo
+                                <a class="btn btn-default" href="articles/article_02.php">Seguir leyendo
                                     <span class="glyphicon glyphicon-chevron-right"></span>
                                 </a>
                             </div>

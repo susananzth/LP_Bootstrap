@@ -21,7 +21,7 @@ include("partials/top_page.php"); ?>
                 <ul class="nav navbar-nav navbar-right text-right">
                     <li><a class="link" href="index.php">Inicio</a></li>
                     <li><a class="link" href="portfolio.php">Portafolio</a></li>
-                    <li><a class="link" href="article.php">Artículos</a></li>
+                    <li><a class="link" href="articles/article_01.php">Artículos</a></li>
                     <li><a class="link" href="galery.php">Galería</a></li>
                     <li><a class="link" href="login.php">Regístrate</a></li>
                     <li><a class="link" href="contact.php">Contáctame</a></li>

@@ -20,7 +20,7 @@
                 </li>
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="portfolio.php">Portafolio</a></li>
-                <li><a href="article.php">Artículos</a></li>
+                <li><a href="blog.php">Artículos</a></li>
                 <li><a href="galery.php">Galería</a></li>
                 <li><a href="login.php">Regístrate</a></li>
                 <li><a href="contact.php">Contáctame</a></li>
