@@ -7,13 +7,10 @@ include("partials/nav.php"); ?>
 
 <section>
     <div class="container">
-
         <div class="row">
-
             <div class="col-lg-12">
-                <h1 class="page-header">Thumbnail Gallery</h1>
+                <h1 class="page-header">Galería</h1>
             </div>
-
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <a class="thumbnail" href="#">
                     <img class="img-responsive" src="img/01.jpg" alt="">
