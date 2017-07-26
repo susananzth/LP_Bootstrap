@@ -140,6 +140,13 @@ a.navbar-btn{
     border-radius: 4px;
     margin-bottom: 3%;
 }
+
+.post{
+    padding: 3% 3%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 3%;
+}
 .blog-title{
     font-size: 180%;
 }

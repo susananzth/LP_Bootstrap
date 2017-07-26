@@ -7,121 +7,109 @@ include("partials/nav.php"); ?>
 
 <section>
     <div class="container">
+
         <div class="row">
-            <!-- Blog Entries Column -->
-            <div class="col-md-8 col-sm-8 col-xs-9">
-                <h1 class="page-header">Mi blog</h1>
-                <div class="entry">
-                    <a href="#" class="blog-title">Blog 01</a>
-                    <p>
-                        by <a href="#">Tu madre</a>
-                        <span class="glyphicon glyphicon-time"></span>
-                        Publicado el 28 de julio de 2017 a las 06:00 PM
-                    </p>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <img class="img-responsive" src="img/03.jpg" alt="">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-9 ">
+
+                <!-- Title -->
+                <h1>Blog 01</h1>
+                <!-- Author -->
+                <p>
+                    by <a href="#">Tu madre</a>
+                    <span class="glyphicon glyphicon-time"></span>
+                    Publicado el 28 de julio de 2017 a las 06:00 PM
+                </p>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="img/03.jpg" alt="">
+
+                <!-- Post Content -->
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe
+                    quibusdam sit excepturi nam quia corporis eligendi eos magni
+                    recusandae laborum minus inventore?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
+                    tenetur natus doloremque laborum quos iste ipsum rerum obcaecati
+                    impedit odit illo dolorum ab tempora nihil dicta earum fugiat.
+                    Temporibus, voluptatibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+                    doloribus, dolorem iusto blanditiis unde eius illum consequuntur
+                    neque dicta incidunt ullam ea hic porro optio ratione repellat
+                    perspiciatis. Enim, iure!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
+                    nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi
+                    nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum,
+                    dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore
+                    quidem voluptates cupiditate voluptas illo saepe quaerat numquam
+                    recusandae? Qui, necessitatibus, est!</p>
+
+                <!-- Blog Comments -->
+
+                <!-- Comments Form -->
+                <div class="well">
+                    <h4>Escribe un comentario:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
-                                veritatis, tempora, necessitatibus inventore nisi quam quia
-                                repellat ut tempore laborum possimus eum dicta id animi corrupti
-                                debitis ipsum officiis rerum.</p>
-                            <a class="btn btn-default" href="#">Seguir leyendo
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <!-- Posted Comments -->
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Start Bootstrap
+                            <small>August 25, 2014 at 9:30 PM</small>
+                        </h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                     </div>
                 </div>
 
-                <div class="entry">
-                    <a href="#" class="blog-title">Blog 02</a>
-                    <p>
-                        by <a href="#">Tu madre</a>
-                        <span class="glyphicon glyphicon-time"></span>
-                        Publicado el 26 de julio de 2017 a las 09:00 PM
-                    </p>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <img class="img-responsive" src="img/05.jpg" alt="">
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
-                                veritatis, tempora, necessitatibus inventore nisi quam quia
-                                repellat ut tempore laborum possimus eum dicta id animi corrupti
-                                debitis ipsum officiis rerum.</p>
-                            <a class="btn btn-default" href="#">Seguir leyendo
-                                <span class="glyphicon glyphicon-chevron-right"></span>
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Start Bootstrap
+                            <small>August 25, 2014 at 9:30 PM</small>
+                        </h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <!-- Nested Comment -->
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="http://placehold.it/64x64" alt="">
                             </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Nested Start Bootstrap
+                                    <small>August 25, 2014 at 9:30 PM</small>
+                                </h4>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="entry">
-                    <a href="#" class="blog-title">Blog 03</a>
-                    <p>
-                        by <a href="#">Tu madre</a>
-                        <span class="glyphicon glyphicon-time"></span>
-                        Publicado el 22 de julio de 2017 a las 10:00 AM
-                    </p>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <img class="img-responsive" src="img/06.jpg" alt="">
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
-                                veritatis, tempora, necessitatibus inventore nisi quam quia
-                                repellat ut tempore laborum possimus eum dicta id animi corrupti
-                                debitis ipsum officiis rerum.</p>
-                            <a class="btn btn-default" href="#">Seguir leyendo
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Pagination | Paginadores -->
-                <div class="row text-center">
-                    <div class="col-lg-12">
-                        <ul class="pagination">
-                            <li>
-                                <a href="#">&laquo;</a>
-                            </li>
-                            <li class="active">
-                                <a href="#">1</a>
-                            </li>
-                            <li>
-                                <a href="#">2</a>
-                            </li>
-                            <li>
-                                <a href="#">3</a>
-                            </li>
-                            <li>
-                                <a href="#">4</a>
-                            </li>
-                            <li>
-                                <a href="#">5</a>
-                            </li>
-                            <li>
-                                <a href="#">&raquo;</a>
-                            </li>
-                        </ul>
+                        <!-- End Nested Comment -->
                     </div>
                 </div>
             </div>
-
-
-            <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4 col-sm-4 col-xs-3">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3">
                 <!-- Blog Search | Buscador de blogs -->
                 <div class="widget">
                     <h4>Buscador de blogs</h4>
                     <div class="input-group">
                         <input type="text" class="form-control">
                         <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">
-                        <span class="glyphicon glyphicon-search"></span>
-                </button>
-                </span>
+                                <button class="btn btn-default" type="button">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
                     </div>
                 </div>
                 <!-- Blog Categories | Categorías -->
@@ -141,9 +129,12 @@ include("partials/nav.php"); ?>
                         Inventore, perspiciatis adipisci accusamus laudantium odit
                         aliquam repellat tempore quos aspernatur vero.</p>
                 </div>
+
             </div>
+
         </div>
-    </div>
+        <!-- /.row -->
+
 </section>
 
 <?php /*Includes footer and javascript |
